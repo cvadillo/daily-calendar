@@ -18,15 +18,17 @@
           href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Work Day Scheduler</title>
     </head>
 
     <body>
         <header class="jumbotron">
             <div class="container">
-                <h1>Work Day Scheduler</h1>
+                <h1 class="page-title">Work Day Scheduler</h1>
                 <p class="lead">A simple calendar app for scheduling your work day</p>
+
+                <!-- Insert the time here -->
                 <p id="currentDay" class="lead"></p>
             </div>
         </header>
@@ -189,7 +191,13 @@
             </div>
         </div>
 
+        <!-- Moment JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+        <!-- JQuery -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <!-- Ajax Libraries -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <!-- My Script -->
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
