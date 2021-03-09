@@ -20,6 +20,7 @@ const displayTheDate = function() {
 const refreshDate = setInterval(displayTheDate, 100);
 
 
+// Initialize the functions on document load.
 $(document).ready(function() {
   init();
 
