@@ -8,4 +8,4 @@ Users are able to see the current time, they can also add activities from the ho
 9am-5pm. Additionally, users can edit tasks that have been inputed and can also clear the entire calendar if need be.
 Lastly, 
 
-![alt text](https://github.com/cavdillo/daily-calendar/blob/main/calendar.png?raw=true)
+![alt text](https://github.com/cvadillo/daily-calendar/blob/main/calendar.png?raw=true)
